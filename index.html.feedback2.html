@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <main>
+        <form action="https://yourdomain.com/homework3/success" method="POST">
+            <section>
+                <label for="feedback-message">Feedback Message:</label>
+                <textarea id="feedback-message" name="feedback-message" rows="4" required></textarea>
+            </section>
+            <section>
+                <label>Rating:</label><br>
+                <input type="radio" id="excellent" name="rating" value="Excellent" required>
+                <label for="excellent">Excellent</label><br>
+                <input type="radio" id="good" name="rating" value="Good" required>
+                <label for="good">Good</label><br>
+                <input type="radio" id="average" name="rating" value="Average" required>
+                <label for="average">Average</label><br>
+                <input type="radio" id="poor" name="rating" value="Poor" required>
+                <label for="poor">Poor</label><br>
+            </section>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 YourDomain. All rights reserved.</p>
+    </footer>
+</body>
+</html>
